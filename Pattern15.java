@@ -1,11 +1,11 @@
-public class Pattern5 {
+public class Pattern15 {
     public static void main(String[] args) {
         int i,j;
         for(i=1;i<=3;i++){
-            for(j=1;j<=3;j++){
+            for(j=3;j>=i;j--){
                 System.out.print( i );
             }
-System.err.println(" ");
+            System.out.println(" ");
         }
     }
     

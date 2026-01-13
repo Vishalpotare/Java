@@ -1,23 +1,33 @@
-public class test1 {
-    private int age;
-    private int id;
-    
-
-public void setAge(int a){
-    this.age=a;
-}
-public int getAge(){
-    return this.age;
-}
-
-}
-
 class test{
-public static void main(String[] args) {
-    test1 ft=new test1();
-    ft.setAge(58);
-    
-    System.out.println(ft.getAge()); 
-}
+    private int id;
+    private String name;
 
+public void setId(int id){
+    this.id=123;
 }
+public void setNmame(String name){
+    this.name="";
+}
+public int getId(){
+    return this.id;
+}
+public String getName(){
+    return this.name;
+}}
+public class test1{
+    public static void main(String[] args) {
+        test t=new test();
+
+        int id=t.getId();
+        String name=t.getName();
+        
+
+    }
+} 
+// public class test1{
+//     public static void main(String[] args) {
+//         test t=new test();
+//         t.id=10;
+//         t.name="ABC";
+//     }
+//}

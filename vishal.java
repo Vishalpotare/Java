@@ -1,14 +1,19 @@
- class test3 {
-    private int value;
-
-    public int getValue(){
-        return this.value;
+class vishal1{
+    public  void add(){
+        System.out.println("AB");
     }
+}
+class vishal2 extends vishal1{
     
 }
-public class vishal{
+class vishal3 extends vishal2{                  //multilevel inheritance
+   
+}
+public class vishal {
     public static void main(String[] args) {
-        test3 t=new test3();
-        System.out.println(t.getValue());
+        vishal3 v=new vishal3();
+        v.add();
+        
     }
+    
 }
